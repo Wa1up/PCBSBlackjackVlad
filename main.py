@@ -57,4 +57,3 @@ while True:
         pass
     showup()
     break
-

@@ -210,7 +210,7 @@ whowon = []
 def ifplayerlost(pleyya):
         if pleyya.score > 21: 
             print(f"\n{pleyya.name} lost!")
-            if pleyya == player or pleyya == croupier:
+            if pleyya == player:
                 showscore(pleya=pleyya)
             else:
                 print("He had")
